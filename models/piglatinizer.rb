@@ -73,6 +73,7 @@ class PigLatinizer
     array.each_with_index do |word, index|
 
         if @consonants_caps.include?(word[0]) && word.length == 2
+          split_word = word.split("")
           new_word = word + "ay"
           pig_latin << new_word
         elsif @vowels.include?(word[0]) && word.length == 1
