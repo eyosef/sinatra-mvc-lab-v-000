@@ -74,7 +74,6 @@ class PigLatinizer
 
         if @consonants_caps.include?(word[0]) && word.length == 2
           split_word = word.split("")
-          binding.pry
           new_word = split_word.push("a", "y").join("")
           pig_latin << new_word
         elsif @vowels.include?(word[0]) && word.length == 1
