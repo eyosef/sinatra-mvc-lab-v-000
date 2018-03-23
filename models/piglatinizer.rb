@@ -80,7 +80,7 @@ class PigLatinizer
         elsif @vowels.include?(word[0]) && word.length == 1
           new_word = word[0] + "way"
           pig_latin << new_word
-        elsif @consonants_caps.include?(word[0])
+        elsif @consonants_caps.include?(word[0]) && word.length == 6
         elsif @vowels.include?(word[0]) || @vowels_caps.include?(word[0]) && @consonants.include?(word[1])
           new_word = word + "way"
           pig_latin << new_word
