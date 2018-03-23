@@ -85,7 +85,6 @@ class PigLatinizer
           split_word.shift
           split_word.shift
           split_word.shift
-          binding.pry
           new_word = split_word.push(word[0]).push(word[1]).push(word[2]).push("a", "y").join("")
           pig_latin << new_word
         elsif @consonants_caps.include?(word[0]) && word.length == 8 #TESTING, GULF
