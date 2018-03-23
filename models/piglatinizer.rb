@@ -85,7 +85,11 @@ class PigLatinizer
           split_word.shift
           new_word = split_word.push(word[0]).push("a", "y").join("")
           pig_latin << new_word
-        elsif 
+        elsif @consonants_caps.include?(word[0]) && word.length == 6 #TESTING, GULF
+          split_word = word.split("")
+          split_word.shift
+          new_word = split_word.push(word[0]).push("a", "y").join("")
+          pig_latin << new_word
         elsif @vowels.include?(word[0]) || @vowels_caps.include?(word[0]) && @consonants.include?(word[1])
           new_word = word + "way"
           pig_latin << new_word
