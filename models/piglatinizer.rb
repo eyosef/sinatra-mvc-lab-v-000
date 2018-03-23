@@ -83,6 +83,8 @@ class PigLatinizer
         elsif @consonants_caps.include?(word[0]) && word.length == 6 #TESTING, GULF
           split_word = word.split("")
           split_word.shift
+          split_word.shift
+          split_word.shift
           binding.pry
           new_word = split_word.push(word[0]).push("a", "y").join("")
           pig_latin << new_word
