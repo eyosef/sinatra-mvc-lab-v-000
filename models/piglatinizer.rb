@@ -82,6 +82,8 @@ class PigLatinizer
           pig_latin << new_word
         elsif @consonants_caps.include?(word[0]) && word.length == 6
           split_word = word.split("")
+
+
         elsif @vowels.include?(word[0]) || @vowels_caps.include?(word[0]) && @consonants.include?(word[1])
           new_word = word + "way"
           pig_latin << new_word
