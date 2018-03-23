@@ -5,10 +5,10 @@ ay eightyway ourfay aysday ownay ithoutway akingtay away ishfay")
 nway ethay lfGuay reamStay andway ehay adhay onegay eightyway ourfay aysday ownay ithoutway
 akingtay away ishfay"
 
-to include "eHay asway anway oldway anmay owhay ishedfay aloneway inway away iffskay inway 
+to include "eHay asway anway oldway anmay owhay ishedfay aloneway inway away iffskay inway
 ethay ulfGay eamStray andway ehay adhay onegay eightyway ourfay aysd
 ay ownay ithoutway akingtay away ishfay"
 
-Output/Goal 
-lfGuay / ulfGay 
+Output/Goal
+lfGuay / ulfGay
 reamStay / eamStray
