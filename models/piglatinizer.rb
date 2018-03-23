@@ -72,11 +72,11 @@ class PigLatinizer
 
     array.each_with_index do |word, index|
 
-        if @vowels.include?(word[0]) && word.length == 1
-          new_word = word[0] + "way"
-          pig_latin << new_word
-        elsif @consonants_caps.include?(word[0]) && word.length == 2
+        if @consonants_caps.include?(word[0]) && word.length == 2
           new_word = word + "ay"
+          pig_latin << new_word
+        elsif @vowels.include?(word[0]) && word.length == 1
+          new_word = word[0] + "way"
           pig_latin << new_word
         elsif @vowels.include?(word[0]) || @vowels_caps.include?(word[0]) && @consonants.include?(word[1])
           new_word = word + "way"
